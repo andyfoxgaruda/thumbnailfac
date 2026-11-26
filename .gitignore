@@ -1,0 +1,38 @@
+# Local environments and Python output
+/.venv/
+/.segmentation-venv/
+**/__pycache__/
+*.py[cod]
+/.pytest_cache/
+/.mypy_cache/
+
+# Credentials, network identity, and personal settings
+/secrets.json
+/studio_network.json
+/studio_schedule.json
+/.env
+/.env.*
+*.pem
+*.key
+
+# User data, artwork, models, and runtime state
+/[Aa]ssets/
+/[Ee]xports/
+/[Ii]ncoming/
+/[Jj]obs/
+/[Ll]ogs/
+/[Mm]odels/
+/[Pp]rojects/
+/ReferenceLibrary/
+/ReferenceAnalysis/
+/ArtDNA/
+/commands.json
+/oauth.sqlite3*
+*.sqlite3*
+*.db
+*.source.json
+
+# Historical local copies
+/*.backup*
+/*.bak
+/*.authbackup

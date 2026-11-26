@@ -1,0 +1,9 @@
+fastapi==0.165.0
+httpx2==2.16.2
+mcp==2.3.0
+pillow==13.0.0
+pydantic==2.14.4
+python-multipart==0.0.34
+pywin32==312; sys_platform == "win32"
+starlette==1.10.0
+uvicorn==0.54.0
