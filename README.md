@@ -53,3 +53,7 @@ Installed-app integration checks are opt-in: set `PHOTOCRAFT_RUN_LIVE=1` and run
 ## Security and local data
 
 `secrets.json` and `studio_network.json` are local-only. Keep OAuth behind your trusted private network and retain the gateway's reviewed command allowlist. Downloaded anime art is attributed where metadata is available and is marked with unknown reuse rights unless verified separately. Do not add user artwork or model files to Git with `git add -f`.
+
+## License
+
+The code in this repository is available under the [MIT License](LICENSE). PhotoCraft itself, downloaded artwork, fonts, models, and other third-party assets are not included in this license; check their own terms before sharing them.
